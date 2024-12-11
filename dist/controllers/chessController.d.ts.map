@@ -1,0 +1,1 @@
+{"version":3,"file":"chessController.d.ts","sourceRoot":"","sources":["../../src/controllers/chessController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,KAAK,EAAE,IAAI,EAAE,MAAM,qBAAqB,CAAC;AAK7D,wBAAgB,SAAS,IAAI,KAAK,CAEjC;AAGD,wBAAgB,QAAQ,CAAC,IAAI,EAAE,IAAI,GAAG;IAAE,OAAO,EAAE,OAAO,CAAC;IAAC,KAAK,CAAC,EAAE,KAAK,CAAC;IAAC,KAAK,CAAC,EAAE,MAAM,CAAA;CAAE,CAoBxF"}

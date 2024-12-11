@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2016",                                  /* Sets the JavaScript language version for emitted JavaScript. */
+    "module": "commonjs",                                /* Specifies the module system for the project. */
+    "rootDir": "./src",                                  /* Specifies the root folder for input files. */
+    "outDir": "./dist",                                  /* Specifies the output folder for compiled files. */
+    "esModuleInterop": true,                             /* Ensures compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,            /* Ensures import file name casing matches on all platforms. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enables all strict type-checking options. */
+    "skipLibCheck": true,                                /* Skips type checking for declaration files. */
+
+    /* Module Resolution */
+    "moduleResolution": "node",                         /* Uses Node.js-style module resolution. */
+    "resolveJsonModule": true,                           /* Allows importing JSON files as modules. */
+    "allowSyntheticDefaultImports": true,               /* Allows default imports from modules with no default export. */
+
+    /* Debugging and Development */
+    "sourceMap": true,                                   /* Generates source map files for debugging. */
+    "declaration": true,                                 /* Generates declaration files (.d.ts). */
+    "declarationMap": true,                              /* Generates source maps for declaration files. */
+
+    /* Output Behavior */
+    "removeComments": true                               /* Removes comments in the output JavaScript files. */
+  },
+  "include": [
+    "src/**/*"                                           /* Includes all files in the src folder. */
+  ],
+  "exclude": [
+    "node_modules",                                      /* Excludes the node_modules folder. */
+    "dist"                                               /* Excludes the dist folder from input files. */
+  ]
+}
